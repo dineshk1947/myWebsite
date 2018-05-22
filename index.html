@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<head>
+  <title>Home page</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles1.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="topnav" id="myTopnav">
+    <div class="row ">
+      <div class="col-md-4">
+        <a href="#home" class="active">Home</a>
+        <a href="views/news.html">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="col-md-8 text-align">
+        <marquee id="stall" scrollamount="5" onmouseover="stall.stop()" onmouseout="stall.start()">Welcome back Dinesh Kumar...  </marquee>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="embed-responsive embed-responsive-16by9" id="Home">
+    <video autoplay muted loop class="embed-responsive-item" width="1320" height="240">
+    <source src="videos/wild_life.mp4" type="video/mp4">
+    </video>
+  </div>
+
+  <div class="embed-responsive embed-responsive-16by9" id="about">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="https://www.w3schools.com/howto/img_mountains_wide.jpg" alt="Los Angeles" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="https://www.w3schools.com/howto/img_fjords_wide.jpg" alt="Chicago" style="width:100%;">
+        </div>
+
+        <div class="item">
+          <img src="https://www.w3schools.com/howto/img_nature_wide.jpg" alt="New york" style="width:100%;">
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+<footer>
+    <ul id="menu">
+      <li><a href="https://www.facebook.com/talentscreen.io" target="_blank" class="icon-facebook"><i class="fa fa-facebook"></i></a></li>
+      <li><a href="https://twitter.com/Talent_Screen" target="_blank" class="icon-twitter"><i class="fa fa-twitter"></i></a></li>
+      <li><a href="https://pinterest.com/talentscreen/talentscreen/" target="_blank" class="icon-pinterest hidden-xs"><i class="fa fa-pinterest"></i></a></li><li><a href="https://www.linkedin.com/company/talentscreen" target="_blank" class="icon-linkedin"><i class="fa fa-linkedin"></i></a></li><li><a href="https://plus.google.com/102542355109541492715" target="_blank" class="icon-google-plus"><i class="fa fa-google-plus"></i></a></li><li>
+        <a href="https://www.youtube.com/channel/UClNkWTNgf1dqllqqxLi27yw" target="_blank" class="icon-youtube"><i class="fa fa-youtube"></i></a>
+    </li>
+  </ul>
+</footer>
+</div>
+
+</body>
+</html>
